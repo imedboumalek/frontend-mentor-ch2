@@ -64,7 +64,7 @@ body {
   position: relative;
   margin: 1em 0;
   width: 80vw;
-  min-height: 250;
+  min-height: 250px;
   -webkit-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.2);
           box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.2);
   overflow: hidden;
