@@ -501,9 +501,9 @@ var VanillaTilt = (function () {
          * Auto load
          */
         VanillaTilt.init(document.querySelectorAll("[data-tilt]"), {
-            max: 10,
+            max: 15,
             speed: 400,
-            perspective: 1000
+            perspective: 800
         });
     }
 
