@@ -1,0 +1,17 @@
+$primary-red: hsl(0, 78%, 62%);
+$primary-cyan: hsl(180, 62%, 55%);
+$primary-orange: hsl(34, 97%, 64%);
+$primary-blue: hsl(212, 86%, 64%);
+
+$very-dark-blue: hsl(234, 12%, 34%);
+$grayish-blue: hsl(229, 6%, 66%);
+$very-light-gray: hsl(0, 0%, 98%);
+
+$font: "Poppins", sans-serif;
+$title-font-size: clamp(1rem, 2vw 2rem);
+$body-font-size: clamp(1rem, 2vw 2rem);
+
+@mixin customFont($size: $body-font-size) {
+  font-family: $font;
+  font-size: $size;
+}
