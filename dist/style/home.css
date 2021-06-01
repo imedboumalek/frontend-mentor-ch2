@@ -18,7 +18,7 @@ html {
 *::before,
 *::after {
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   list-style-type: none;
   font-family: "Poppins", sans-serif;
   font-size: clamp(1.1rem, 2vw, 1.2rem);
@@ -66,7 +66,7 @@ body {
   width: 80vw;
   min-height: 250px;
   -webkit-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.2);
-          box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.2);
   overflow: hidden;
 }
 
@@ -104,36 +104,36 @@ body {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
 .flex.sub {
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
 }
 
-.flex.sub > .card:nth-child(1) .color {
+.flex.sub>.card:nth-child(1) .color {
   background-color: #ea5353;
 }
 
-.flex.sub > .card:nth-child(2) .color {
+.flex.sub>.card:nth-child(2) .color {
   background-color: #fcaf4a;
 }
 
-.flex.super > .card:nth-child(1) .color {
+.flex.super>.card:nth-child(1) .color {
   background-color: #45d3d3;
 }
 
-.flex.super > .card:nth-child(3) .color {
+.flex.super>.card:nth-child(3) .color {
   background-color: #549ef2;
 }
 
@@ -141,9 +141,10 @@ body {
   .flex {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
   }
+
   .card {
     margin: 1rem;
     width: 300px;
@@ -157,4 +158,5 @@ body {
     width: 450px;
   }
 }
+
 /*# sourceMappingURL=home.css.map */
