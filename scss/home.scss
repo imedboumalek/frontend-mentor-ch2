@@ -12,9 +12,8 @@ $font: "Poppins", sans-serif;
 $title-font-size: clamp(1.6rem, 4vw, 2rem);
 $heading-font-size: clamp(1.2rem, 2.5vw, 1.4rem);
 $dsc-font-size: clamp(1.1rem, 2vw, 1.2rem);
-$body-font-size: clamp(1rem, 2vw, 1.2rem);
 
-@mixin customFont($size: $body-font-size) {
+@mixin customFont($size: $dsc-font-size) {
   font-family: $font;
   font-size: $size;
   color: $very-dark-blue;
@@ -72,12 +71,14 @@ body {
 
 .card {
   background-color: white;
+
   text-align: left;
   padding: 0.5em 1.5em;
   border-radius: 10px;
   position: relative;
   margin: 1em 0;
   width: 80vw;
+  min-height: 250;
 
   box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.2);
   overflow: hidden;
@@ -94,13 +95,13 @@ body {
   }
 
   .dsc {
-    @include customFont($body-font-size);
+    @include customFont($dsc-font-size);
     font-weight: 400;
     color: $grayish-blue;
   }
 
   img {
-    max-width: 50px;
+    width: 3.5em;
     float: right;
   }
 }
@@ -151,5 +152,12 @@ body {
     margin: 1rem;
 
     width: 300px;
+  }
+}
+@media only screen and (min-width: 1100px) {
+  .card {
+    margin: 1rem;
+    min-height: 300px;
+    width: 450px;
   }
 }
