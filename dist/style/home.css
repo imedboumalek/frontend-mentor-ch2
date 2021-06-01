@@ -94,6 +94,7 @@ body {
 
 .card img {
   max-width: 50px;
+  float: right;
 }
 
 .flex {
