@@ -101,8 +101,11 @@ body {
   }
 
   img {
-    width: 3.5em;
-    float: right;
+    width: 50%;
+    max-width: 70px;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
   }
 }
 .flex {
